@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'IBM Plex Serif', serif;
 }
 
+.sub-h3 {
+    font-size: 16px;
+}
+
 .cv {
     margin-top: 50px;
     border: 1px solid #4b4b4b;
@@ -100,14 +104,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .lines::after {
     margin-right: -100%;
-}
-
-.cer-img-p {
-    text-align: center;
-}
-
-.cer-img {
-    height: 100px;
 }
 
 @media (max-width: 991.98px) {
