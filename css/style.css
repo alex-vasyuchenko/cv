@@ -106,6 +106,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: -100%;
 }
 
+.portfolio-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.portfolio-img {
+    margin-right: 10px;
+}
+
+.portfolio-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
 @media (max-width: 991.98px) {
     .cv-left h1, .cv-left h2, .cv-left h3, .cv-left h4 {
         font-size: 1.3rem;
