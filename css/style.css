@@ -109,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio-item {
     display: flex;
     margin-bottom: 20px;
+    border-bottom: 1px solid #A0A0A0;
 }
 
 .portfolio-img {
@@ -116,8 +117,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-img img {
-    width: 150px;
+    width: 200px;
     height: 100px;
+    border: 1px solid #EAEAEA;
     object-fit: cover;
     object-position: left top;
 }
